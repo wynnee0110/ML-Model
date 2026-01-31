@@ -3,7 +3,6 @@
 ## Overview
 This project focuses on building and training a machine learning model that predicts whether a student will **pass or fail an exam** based on multiple academic, behavioral, and lifestyle-related factors. The primary goal is to understand how different features influence academic performance and to apply core machine learning concepts in a practical, real-world scenario.
 
-The project is designed to be **beginner-friendly while remaining scalable**, allowing for gradual improvements such as feature engineering, model optimization, and deployment.
 
 ---
 
