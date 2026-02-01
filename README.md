@@ -90,6 +90,8 @@ Model performance can be evaluated using metrics such as accuracy, precision, re
 The model and dataset are actively being improved.
 
 ---
+## Achievements 
+The model achieved a Mean Absolute Error of 0.66 and an R² score of 0.99 on the test set, indicating strong predictive performance on the dataset.
 
 ## License
 This project is open-source and available for learning and experimentation.
