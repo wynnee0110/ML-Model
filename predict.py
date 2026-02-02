@@ -2,15 +2,15 @@ import joblib
 import pandas as pd
 
 # Load trained model
-model = joblib.load("student_score_model.pkl")
+model = joblib.load("models/binary_model_V1.pkl")
 
 # New student data (sample of one student)
 student = pd.DataFrame([{
-    "study_hours": 8,
-    "attendance": 85,
-    "prev_grade": 78,
-    "sleep_hours": 7,
-    "practice": 4
+    "study_hours": 4,
+    "attendance": 100,
+    "prev_grade": 75,
+    "sleep_hours": 3,
+    "practice": 3
 }])
 
 # Make prediction

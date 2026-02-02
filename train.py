@@ -28,9 +28,17 @@ predictions = model.predict(X_test)
 mae = mean_absolute_error(y_test, predictions)
 r2 = r2_score(y_test, predictions)
 
+# Predict on test data
+predictions = model.predict(X_test)
+
+# Accuracy metrics
+mae = mean_absolute_error(y_test, predictions)
+r2 = r2_score(y_test, predictions)
+
+
 print("Mean Absolute Error (MAE):", round(mae, 2))
 print("R² Score:", round(r2, 2))
 
 # Save the trained model
-joblib.dump(model, "student_score_model.pkl")
-print("Model saved as student_score_model.pkl")
+joblib.dump(model, "binary_model_V1.pkl")
+print("Model saved as binary_model_V1.pkl")
